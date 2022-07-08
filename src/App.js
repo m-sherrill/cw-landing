@@ -17,11 +17,10 @@ function App() {
 <Router>
   <Header />
   <div className="content-wrapper">
-<Order />
 
 
         <Routes>
-                <Route path="/" />
+                <Route path="/" element={<Order />}/>
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/policy" element={<Policy />} />
