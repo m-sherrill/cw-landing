@@ -14,8 +14,8 @@ const Header = () => {
         <Nav.Link href="/">Order Online</Nav.Link>
         
         <NavDropdown title="Company" id="basic-nav-dropdown">
-          <NavDropdown.Item href="/About">About Us</NavDropdown.Item>
-          <NavDropdown.Item href="/Products">Product and Services</NavDropdown.Item>
+          <NavDropdown.Item href="#about">About Us</NavDropdown.Item>
+          <NavDropdown.Item href="#products">Product and Services</NavDropdown.Item>
           <NavDropdown.Item href="/Policy">Policies</NavDropdown.Item>
         </NavDropdown>
         <Nav.Link href="/Contact">Contact</Nav.Link>

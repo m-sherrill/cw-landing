@@ -9,6 +9,7 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 import Order from './pages/Order'
 import Policy from './pages/Policy'
+import Products from './pages/Products'
 import Home from './pages/Home'
 
 function App() {
@@ -18,13 +19,17 @@ function App() {
   <Header />
   <div className="content-wrapper">
 
-
-        <Routes>
+<Order />
+<About />
+<Products />
+<Policy />
+<Contact />
+        {/* <Routes>
                 <Route path="/" element={<Order />}/>
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/policy" element={<Policy />} />
-          </Routes>
+          </Routes> */}
       </div>
       <Footer />
         </Router>
