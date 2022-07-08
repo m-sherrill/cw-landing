@@ -2,6 +2,7 @@ import { BrowserRouter as Router,
 Routes, 
 Route } from 'react-router-dom'
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import About from './pages/About'
@@ -16,18 +17,19 @@ function App() {
 <Router>
   <Header />
   <div className="content-wrapper">
+<Order />
+
+
         <Routes>
-                <Route path="/" element={<Home />} />
+                <Route path="/" />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/about" element={<About />} />
-                <Route path="/contact" element={<Contact />} />
-                <Route path="/order" element={<Order />} />
                 <Route path="/policy" element={<Policy />} />
           </Routes>
       </div>
       <Footer />
         </Router>
-      
+        
     </div>
   );
 }
