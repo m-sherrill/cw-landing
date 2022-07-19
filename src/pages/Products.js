@@ -1,8 +1,5 @@
 import React from 'react'
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
-import Image from 'react-bootstrap/Image'
+import { Container, Row, Col } from 'react-materialize'
 
 const Products = () => {
   return (
@@ -10,7 +7,7 @@ const Products = () => {
     <Container >
     <Row>
     <Col xs="auto">
-      <Image fluid className="orderImage" src="./assets/images/image.jpg" />
+      <img fluid className="orderImage" src="./assets/images/image.jpg" />
   </Col>
     <Col>
     <h1>Products and Services</h1>

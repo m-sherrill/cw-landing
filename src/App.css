@@ -2,9 +2,23 @@
   background-color: #EEEEEE;
 }
 
-.header {
-  background-color: #FFD369;
+.nav-wrapper {
+  background-color: #FFD369 !important;
+  font-size: 14px;
   font-weight: bold;
+  height: max-content;
+  color: black;
+}
+
+nav {
+  height: 75px;
+line-height: 75px;
+}
+.responsive-img {
+  padding: 10px;
+}
+#mobile-nav {
+  background-color: #FFD369;
 }
 
 .about {
