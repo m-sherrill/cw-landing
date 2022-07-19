@@ -1,5 +1,6 @@
 {
   "name": "cw-landing-page",
+  "homepage": "https://rainbow-pegasus-e7a52c.netlify.app/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
