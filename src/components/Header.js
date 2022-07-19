@@ -8,7 +8,7 @@ const Header = () => {
 
 <Navbar
   alignLinks="right"
-  brand={<a className="brand-logo" id="navbar" href="#"><img className="responsive-img" src="./assets/images/cwlogo.png" /></a>}
+  brand={<a className="brand-logo" id="navbar" href="/"><img className="responsive-img" src="./assets/images/cwlogo.png" /></a>}
   id="mobile-nav"
   menuIcon={<Icon>menu</Icon>}
   options={{
