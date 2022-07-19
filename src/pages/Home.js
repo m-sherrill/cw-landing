@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <Container fluid>
   <Row fluid>
-    <Col className="hero">1 of 1</Col>
+    <Col className="hero">HOMMMMMMMMEEEEEE</Col>
   </Row>
 </Container>
   )

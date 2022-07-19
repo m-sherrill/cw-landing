@@ -43,5 +43,7 @@ line-height: 75px;
 }
 
 .footer {
-  color: black !important;
+  background-color: black;
+  text-align: center;
+  padding: 20px;
 }
