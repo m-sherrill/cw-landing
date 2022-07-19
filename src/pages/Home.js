@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Row, Col, Image } from 'react-materialize'
+import { Container, Row, Col } from 'react-materialize'
 
 const Home = () => {
   return (

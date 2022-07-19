@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Navbar, NavItem, Icon } from 'react-materialize'
+import { Navbar, NavItem, Icon, Dropdown, Divider } from 'react-materialize'
   
 
 const Header = () => {
@@ -24,17 +24,42 @@ const Header = () => {
   }}
 >
 
-  <NavItem className="black-text" href="/">
+  <NavItem className="black-text" href="/order">
   Order Online
   </NavItem>
-  <NavItem className="black-text" href="/">
-  Order Online
-  </NavItem>
-  <NavItem className="black-text" href="/">
-  Order Online
-  </NavItem>
-  <NavItem className="black-text" href="/">
-  Order Online
+  
+  <Dropdown
+  className="black-text"
+    id="Dropdown_14"
+    options={{
+      alignment: 'left',
+      autoTrigger: true,
+      closeOnClick: true,
+      constrainWidth: true,
+      container: null,
+      coverTrigger: true,
+      hover: false,
+      inDuration: 150,
+      onCloseEnd: null,
+      onCloseStart: null,
+      onOpenEnd: null,
+      onOpenStart: null,
+      outDuration: 250
+    }}
+    trigger={<a href="#!">Company{' '}<Icon right>arrow_drop_down</Icon></a>}
+  >
+    <a href="/about">
+      About Us
+    </a>
+    <a href="/products">
+      Products
+    </a>
+    <a href="/policy">
+      Policies
+    </a>
+  </Dropdown>
+  <NavItem className="black-text" href="/contact">
+  Contact
   </NavItem>
 </Navbar>
 

@@ -5,8 +5,6 @@ import { Container, Row, Col } from 'react-materialize'
 const About = () => {
   return (
     <div className="about" id="about">
-
-<Container >
       
     <Row>
     <Col>
@@ -20,7 +18,6 @@ const About = () => {
   </Col>
  
   </Row>
-  </Container>
 
     </div>
   )

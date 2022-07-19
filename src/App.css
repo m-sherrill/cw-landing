@@ -2,11 +2,19 @@
   background-color: #EEEEEE;
 }
 
+a {
+  color: black !important;
+}
+
 .nav-wrapper {
   background-color: #FFD369 !important;
   font-size: 14px;
   font-weight: bold;
   height: max-content;
+  color: black;
+}
+
+#Dropdown_14 {
   color: black;
 }
 
@@ -21,13 +29,6 @@ line-height: 75px;
   background-color: #FFD369;
 }
 
-.about {
-  background-color: #c3c3c3;
-  color: black;
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-
 .order {
   margin: 20px;
 }
@@ -37,12 +38,10 @@ line-height: 75px;
 
 }
 
-.hero {
+.page-footer {
   background-color: black;
-  height: 300px;
-  color: white;
 }
 
 .footer {
-  background-color: #FFD369;
+  color: black !important;
 }

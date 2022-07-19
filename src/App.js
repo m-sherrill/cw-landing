@@ -3,8 +3,9 @@ Routes,
 Route } from 'react-router-dom'
 import './App.css';
 import 'materialize-css'
+import { Container } from 'react-materialize'
 import Header from './components/Header'
-import Footer from './components/Footer'
+import FooterFunction from './components/Footer'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import Order from './pages/Order'
@@ -19,19 +20,22 @@ function App() {
   <Header />
   <div className="content-wrapper">
 
-<Order />
-<About />
-<Products />
-<Policy />
-<Contact />
-        {/* <Routes>
-                <Route path="/" element={<Order />}/>
+
+<Container>
+
+        <Routes>
+        <Route path="/" element={<Home />}/>
+                <Route path="/order" element={<Order />}/>
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/about" element={<About />} />
+                <Route path="/products" element={<Products />} />
                 <Route path="/policy" element={<Policy />} />
-          </Routes> */}
+          </Routes>
+
+          </Container>
       </div>
-      <Footer />
+
+      <FooterFunction />
         </Router>
         
     </div>
