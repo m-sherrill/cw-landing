@@ -1,14 +1,20 @@
 #root {
   background-color: #EEEEEE;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
 }
 
 a {
   color: black !important;
 }
 
+#header {
+  background-color: #FFFFFF ;
+}
+
 .nav-wrapper {
-  background-color: #FFD369 !important;
-  font-size: 14px;
+  background-color: #80cbc4;
+  font-size: 20px;
   font-weight: bold;
   height: max-content;
   color: black;
@@ -21,12 +27,14 @@ a {
 nav {
   height: 75px;
 line-height: 75px;
+margin-bottom: 10px;
+font-family: 'Roboto', sans-serif;
 }
 .responsive-img {
   padding: 10px;
 }
 #mobile-nav {
-  background-color: #FFD369;
+  background-color: #4db6ac;
 }
 
 .order {
@@ -43,7 +51,11 @@ line-height: 75px;
 }
 
 .footer {
-  background-color: black;
   text-align: center;
   padding: 20px;
+}
+
+h3 {
+  color: white;
+  text-shadow: 1px 1px rgb(165, 165, 165);
 }

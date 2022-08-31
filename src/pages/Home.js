@@ -1,13 +1,60 @@
 import React from 'react'
-import { Container, Row, Col } from 'react-materialize'
+import { Slide, Caption, Slider, Container, Button } from 'react-materialize'
 
 const Home = () => {
   return (
-    <Container fluid>
-  <Row fluid>
-    <Col className="hero">HOMMMMMMMMEEEEEE</Col>
-  </Row>
-</Container>
+
+<Slider
+  fullscreen={false}
+  options={{
+    duration: 500,
+    height: 400,
+    indicators: true,
+    interval: 6000
+  }}
+>
+  <Slide image={<img alt="" src="./assets/images/pexels-cowomen-2041627.jpg"/>}>
+    <Caption placement="center">
+      <h3>
+        This is our big Tagline!
+      </h3>
+      <h5 className="light grey-text text-lighten-3">
+        Here's our small slogan.
+      </h5>
+    </Caption>
+  </Slide>
+  <Slide image={<img alt="" src="./assets/images/pexels-george-milton-7014401.jpg"/>}>
+    <Caption placement="left">
+      <h3>
+        Order Online Now
+      </h3>
+      <h5 className="light grey-text text-lighten-3">
+        <Button>Click here to start</Button>
+      </h5>
+    </Caption>
+  </Slide>
+  <Slide image={<img alt="" src="https://lorempixel.com/780/580/nature/3"/>}>
+    <Caption placement="right">
+      <h3>
+        Right Aligned Caption
+      </h3>
+      <h5 className="light grey-text text-lighten-3">
+        Here's our small slogan.
+      </h5>
+    </Caption>
+  </Slide>
+  <Slide image={<img alt="" src="https://lorempixel.com/580/250/nature/4"/>}>
+    <Caption placement="center">
+      <h3>
+        This is our big Tagline!
+      </h3>
+      <h5 className="light grey-text text-lighten-3">
+        Here's our small slogan.
+      </h5>
+    </Caption>
+  </Slide>
+</Slider>
+
   )
 }
 
