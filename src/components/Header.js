@@ -5,7 +5,7 @@ import { Navbar, NavItem, Icon, Dropdown, Divider, Container } from 'react-mater
 const Header = () => {
   return(
     <div id="header">
-
+<Container>
 <Navbar
   alignLinks="right"
   brand={<a className="brand-logo" id="navbar" href="/"><img className="responsive-img" src="./assets/images/cwlogo.png" /></a>}
@@ -63,7 +63,7 @@ const Header = () => {
   </NavItem>
 </Navbar>
 
-
+</Container>
 
     </div>
   )

@@ -13,7 +13,7 @@ const Home = () => {
     interval: 6000
   }}
 >
-  <Slide image={<img alt="" src="./assets/images/54292.1.jpg"/>}>
+  <Slide image={<img alt="" src="./assets/images/pexels-cowomen-2041627.jpg" />}>
     <Caption placement="right">
       <h3>
       Serving the Puget Sound<br/> and Spokane Areas
@@ -23,7 +23,7 @@ const Home = () => {
       </h5>
     </Caption>
   </Slide>
-  <Slide image={<img alt="" src="./assets/images/pexels-george-milton-7014401two.jpg"/>}>
+  <Slide image={<img alt="" src="./assets/images/pexels-george-milton-7014401.jpg"/>}>
     <Caption placement="left">
       <h3>
         Order Online Now
