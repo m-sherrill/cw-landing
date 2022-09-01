@@ -1,5 +1,5 @@
 #root {
-  background-color: #EEEEEE;
+  background-color: #FFFFFF;
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
 }
@@ -10,6 +10,9 @@ a {
 
 #header {
   background-color: #FFFFFF ;
+  position: sticky;
+  top: 0px;
+  z-index: 10;
 }
 
 .nav-wrapper {
@@ -27,7 +30,7 @@ a {
 nav {
   height: 75px;
 line-height: 75px;
-margin-bottom: 10px;
+margin-bottom: 20px;
 font-family: 'Roboto', sans-serif;
 }
 .responsive-img {
@@ -38,19 +41,26 @@ font-family: 'Roboto', sans-serif;
 }
 
 .order {
-  margin: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 25px;
+  background-color: white;
 }
 
-.orderImage {
-  border-radius: 20px;
-
+#aboutcontainer {
+  background-color: #eeeeee;
+  border: 1px solid rgba(10, 247, 255, 0.527);
+  padding: 10px;
 }
 
 .page-footer {
   background-color: black;
 }
 
-.footer {
+#footer {
+  margin-top: 10px;
+  border-top: 1px solid black;
+  background-color: #FFFFFF;
   text-align: center;
   padding: 20px;
 }
@@ -59,3 +69,4 @@ h3 {
   color: white;
   text-shadow: 1px 1px rgb(165, 165, 165);
 }
+

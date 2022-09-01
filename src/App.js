@@ -19,20 +19,23 @@ function App() {
 <Router>
   <Header />
   <div className="content-wrapper">
+  
 
 
-<Container>
+<Home />
 
+<Order />
+<About />
         <Routes>
-        <Route path="/" element={<Home />}/>
-                <Route path="/order" element={<Order />}/>
+        {/* <Route path="/" element={}/> */}
+                {/* <Route path="/order" element={<Order />}/> */}
                 <Route path="/contact" element={<Contact />} />
-                <Route path="/about" element={<About />} />
+                {/* <Route path="/about" element={<About />} /> */}
                 <Route path="/products" element={<Products />} />
                 <Route path="/policy" element={<Policy />} />
           </Routes>
 
-          </Container>
+          
       </div>
 
       <FooterFunction />

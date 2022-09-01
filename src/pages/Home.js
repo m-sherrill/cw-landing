@@ -13,17 +13,17 @@ const Home = () => {
     interval: 6000
   }}
 >
-  <Slide image={<img alt="" src="./assets/images/pexels-cowomen-2041627.jpg"/>}>
-    <Caption placement="center">
+  <Slide image={<img alt="" src="./assets/images/54292.1.jpg"/>}>
+    <Caption placement="right">
       <h3>
-        This is our big Tagline!
+      Serving the Puget Sound<br/> and Spokane Areas
       </h3>
       <h5 className="light grey-text text-lighten-3">
-        Here's our small slogan.
+      <Button>Learn more about our products and services</Button>
       </h5>
     </Caption>
   </Slide>
-  <Slide image={<img alt="" src="./assets/images/pexels-george-milton-7014401.jpg"/>}>
+  <Slide image={<img alt="" src="./assets/images/pexels-george-milton-7014401two.jpg"/>}>
     <Caption placement="left">
       <h3>
         Order Online Now
@@ -33,13 +33,13 @@ const Home = () => {
       </h5>
     </Caption>
   </Slide>
-  <Slide image={<img alt="" src="https://lorempixel.com/780/580/nature/3"/>}>
+  <Slide image={<img alt="" src="./assets/images/pexels-george-milton-7014401.jpg"/>}>
     <Caption placement="right">
-      <h3>
-        Right Aligned Caption
+    <h3>
+        We would love to hear from you!
       </h3>
       <h5 className="light grey-text text-lighten-3">
-        Here's our small slogan.
+        <Button>Contact us today </Button>
       </h5>
     </Caption>
   </Slide>

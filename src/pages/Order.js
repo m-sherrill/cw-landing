@@ -4,8 +4,9 @@ import { Container, Row, Col, Button } from 'react-materialize'
 const Order = () => {
   return (
     <div className="order">
+      <Container>
     <Row>
-    <h1>Order Online</h1>
+    <h4>Order Online</h4>
     </Row>
     <Row>
     <Col s={12} m={8}>
@@ -21,7 +22,7 @@ const Order = () => {
   <Col className="center-align">
       <img className="orderImage" src="./assets/images/image.jpg" />
   </Col>
-  </Row>
+  </Row></Container>
   </div>
   )
 }
